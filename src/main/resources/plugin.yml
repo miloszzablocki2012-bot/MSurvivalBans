@@ -1,0 +1,21 @@
+name: MSurvivalBans
+version: 1.0
+main: pl.msurvival.bans.MSurvivalBans
+api-version: '1.21'
+author: Milekz
+
+commands:
+  tempban:
+    usage: /tempban <gracz> <czas> <powod>
+  ban:
+    usage: /ban <gracz> <powod>
+  unban:
+    usage: /unban <gracz>
+  checkban:
+    usage: /checkban <gracz>
+  kick:
+    usage: /kick <gracz> <powod>
+
+permissions:
+  msurvivalbans.admin:
+    default: op

@@ -1,0 +1,25 @@
+messages:
+  prefix: "&c&lMSurvivalBans &8» &r"
+  no-permission: "&cNie masz uprawnień."
+  usage-tempban: "&cUżycie: &e/tempban <gracz> <czas> <powód>"
+  usage-ban: "&cUżycie: &e/ban <gracz> <powód>"
+  usage-unban: "&cUżycie: &e/unban <gracz>"
+  usage-checkban: "&cUżycie: &e/checkban <gracz>"
+  usage-kick: "&cUżycie: &e/kick <gracz> <powód>"
+  player-not-online: "&cTen gracz nie jest online."
+  banned: "&cZbanowano &e%player% &cza: &e%reason%"
+  tempbanned: "&cZbanowano &e%player% &cna &e%time% &cza: &e%reason%"
+  unbanned: "&aOdbanowano gracza &e%player%&a."
+  not-banned: "&cTen gracz nie ma bana."
+  check: "&e%player% &7ban: &c%reason% &7wygasa: &e%expires%"
+  kicked: "&cWyrzucono &e%player% &cza: &e%reason%"
+
+kick-screen: |-
+  &c&lZOSTAŁEŚ WYRZUCONY
+  &7Powód: &e%reason%
+
+ban-screen: |-
+  &c&lZOSTAŁEŚ ZBANOWANY
+  &7Powód: &e%reason%
+  &7Wygasa: &e%expires%
+  &8MSurvival
